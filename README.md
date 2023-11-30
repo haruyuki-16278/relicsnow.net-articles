@@ -1,2 +1,5 @@
-# relicsnow.net-articles
-ブログの記事置き場
+## about me
+
+![icon](https://avatars.githubusercontent.com/u/24760583?v=4)
+
+はるゆきと申します。よろしくお願いします。
