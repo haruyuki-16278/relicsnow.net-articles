@@ -20,6 +20,7 @@ files.forEach(file => {
   articleInfo.created_at = new Date(articleInfo.created_at)
   articleInfo.updated_at = articleInfo.updated_at !== 'none' ? new Date(articleInfo.updated_at) : null
   articleInfo.tags = JSON.parse(`["${articleInfo.tags.replace(',', '","')}"]`)
+  articleInfo.path = file
   console.log(articleInfo)
   list.push(articleInfo)
 })
