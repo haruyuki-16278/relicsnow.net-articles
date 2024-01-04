@@ -58,7 +58,7 @@ eleventyに入門する
 - [html](/html)
 ```
 
-![11tyでMarkdownの出力結果](img/../imgs/20240104/11ty-markdown.png)
+![11tyでMarkdownの出力結果](imgs/20240104/11ty-markdown.png)
 
 #### HTML
 
@@ -83,6 +83,13 @@ a(href="/") topへ
 ```
 
 ![11tyでpugの出力結果](imgs/20240104/11ty-pug.png)
+
+### 追記: github pagesでホスティングするとき
+
+HTML-baseプラグインで解決できます。  
+使うにあたって、指定するURLの末尾に`/`を忘れずに追加するようにしましょう。
+
+参考: <https://www.11ty.dev/docs/plugins/html-base/>
 
 ### おわり
 
