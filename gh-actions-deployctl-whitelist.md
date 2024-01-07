@@ -1,7 +1,7 @@
 ---
 "title": "Deno Deployへのデプロイをホワイトリスト指定にする"
-"created_at": "2023/01/06"
-"updated_at": "none"
+"created_at": "2024/01/06"
+"updated_at": "2024/01/08"
 "abstract": "Deno DeployにGitHub Actionsを利用してアップロードするときにいらないものまでアップロードしないように"
 "tags": "deno,GitHub Actions"
 ---
