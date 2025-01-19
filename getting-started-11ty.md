@@ -1,7 +1,7 @@
 ---
 "title": "11tyっていうSSGを試してみる"
 "created_at": "2024/01/04"
-"updated_at": "none"
+"updated_at": "2025/01/19"
 "abstract": "11ty(eleventy)といういろんなファイル形式に対応したSSGを見つけたのでちょっとだけ試してみようと思います。"
 "tags": "javascript,ssg,web"
 ---
@@ -26,7 +26,7 @@ githubでリポジトリを作る際に`README.md`を作成している場合は
 
 ひとまず、ビルド元ディレクトリとビルド先ディレクトリを設定します。
 
-```javascript
+```js
 module.exports = function(eleventyConfig) {
   return {
     // ビルド元をsrcに
@@ -47,7 +47,7 @@ module.exports = function(eleventyConfig) {
 
 #### Markdown
 
-```Markdown
+```markdown
 # 11ty getting started
 
 eleventyに入門する
@@ -62,7 +62,7 @@ eleventyに入門する
 
 #### HTML
 
-```HTML
+```html
 <h1>this is HTML page</h1>
 
 <p>htmlで書いたページもビルドできます</p>
