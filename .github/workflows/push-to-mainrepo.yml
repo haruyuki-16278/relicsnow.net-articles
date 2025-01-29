@@ -1,0 +1,19 @@
+name: Dispatch Event To Main-Repo
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  dispatch-event:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create a new event
+        run: |
+          curl --request POST \
+          --url 'https://api.github.com/repos/haruyuki-16278/relicsnow.net/dispatches' \
+          --header 'Authorization: Bearer ${{ secrets.WORKFLOW_TOKEN }}' \
+          --header 'Content-Type: application/json' \
+          --data-raw '{"event_type": "articles-updated"}'
